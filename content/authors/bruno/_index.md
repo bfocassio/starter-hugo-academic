@@ -74,7 +74,7 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'bfocassio@gmail.com'
+email: 'b.focassio@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
