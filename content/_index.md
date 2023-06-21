@@ -28,32 +28,34 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Regression
+          tag: Regression Analysis
+        - name: Classification
+          tag: Classification
+        - name: Clustering
+          tag: Clustering
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+  # - block: features
+  #   content:
+  #     title: Skills
+  #     items:
+  #       - name: Python
+  #         description: 
+  #         icon: python
+  #         icon_pack: fab
+  #       - name: Statistical Analysis
+  #         description: 
+  #         icon: chart-line
+  #         icon_pack: fas
+  #       - name: Tableau
+  #         description:
+  #         icon: tableau
+  #         icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -66,33 +68,34 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Associate Researcher (PhD student)
+          company: Brazilian Center for Research in Energy and Materials (CNPEM)
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: cnpem
+          location: Campinas, Brazil
+          date_start: '2019-02-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Collaboration with experimental scientists.
+              * Data Mining and Statistical Analysis of experimental data.
+              * Insights from machine learning models (regression and classification).
+              * Interpretation of time series data using clustering.
+              * Data visualization and presentation.
+        - title: Visiting Research Fellow (PhD student)
+          company: Trinity College Dublin
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: tcd
+          location: Dublin, Ireland
+          date_start: '2022-02-04'
+          date_end: '2023-02-03'
+          description: Machine learning and Predictive modelling for two-dimensional materials' properties at the Computational Spintronics Group, led by Stefano Sanvito.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      # title: 'Accomplish&shy;ments'
+      title: 'Certificates'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -102,67 +105,72 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/FTL8GUV5SSR4
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-06-25'
           description: ''
           organization: Coursera
           organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          title: Google Advanced Data Analytics
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/YMY6S9D6VRRD
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2023-05-01'
           description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: "SQL for Data Science"
           url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/MQDJCP9CSKP6
+          date_end: ''
+          date_start: '2023-05-06'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: The Nuts and Bolts of Machine Learning
+          url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/ESQ5E7RD4KAX
+          date_end: ''
+          date_start: '2023-05-02'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Foundations of Data Science
+          url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/TUTEQANNQ7YH
+          date_end: ''
+          date_start: '2023-05-03'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: "Go Beyond the Numbers: Translate Data into Insights"
+          url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/NWWGV5QNAXLW
+          date_end: ''
+          date_start: '2023-05-05'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: "Regression Analysis: Simplify Complex Data Relationships"
+          url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/HT9AU62543JS
+          date_end: ''
+          date_start: '2023-05-04'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: "The Power of Statistics"
+          url: ''
+        # - certificate_url: https://www.edx.org
+        #   date_end: ''
+        #   date_start: '2017-10-01'
+        #   description: ''
+        #   organization: edX
+        #   organization_url: https://www.edx.org
+        #   title: A Hands-on Introduction to Engineering Simulations
+        #   url: ''
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
   - block: collection
     content:
       title: Recent Publications
@@ -183,35 +191,10 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to send me an email
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      email: bfocassio@gmail.com
+      phone: +55 11 9 9674 3180
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

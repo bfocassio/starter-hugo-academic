@@ -80,5 +80,5 @@ email: 'bfocassio@gmail.com'
 highlight_name: true
 ---
 
-I am a fourth-year PhD student in Nanoscience and Advanced Materials at the Federal Univerisity of ABC (Brazil), under the supervision of Prof. Adalberto Fazzio, and during 2022 I was visiting the Computational Spintronics Group in the School of Physics in Trinity College Dublin (Ireland), under the supervision of prof. Stefano Sanvito. My main interest is using data analysis, machine learning, materials informatics, and data-driven techniques to explore the materials phase space to achieve efficient design and discovery of materials.
+I am a fourth-year PhD student in Nanoscience and Advanced Materials at the Federal Univerisity of ABC (Brazil), under the supervision of Prof. Adalberto Fazzio. During 2022, I was visiting the Computational Spintronics Group in the School of Physics in Trinity College Dublin (Ireland), under the supervision of prof. Stefano Sanvito. My main interest is using data analysis, machine learning, materials informatics, and data-driven techniques to explore the materials phase space to achieve efficient design and discovery of materials.
 {style="text-align: justify;"}

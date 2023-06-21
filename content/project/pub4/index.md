@@ -1,22 +1,26 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: "Machine learning of microscopic ingredients for graphene oxide/cellulose interaction"
+summary: Feature transformation & feature engineering. Insights from regression and classification models. Data visualization.
 tags:
-  - Deep Learning
+  - Machine Learning
+  - Regression Analysis
+  - Classification
+  - Feature transformation
+  - Feature engineering
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://doi.org/10.1021/acs.langmuir.1c02780'
 
 image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: 
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: Check publication
+    url: https://doi.org/10.1021/acs.langmuir.1c02780
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,7 +31,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
