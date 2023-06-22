@@ -2,10 +2,11 @@
 title: How lignin sticks to cellulose—insights from atomic force microscopy enhanced by machine-learning analysis and molecular dynamics simulations
 summary: Application of data analysis and machine learning on experimental data. Data cleaning and transformation. Noise reduction with PCA. Time series clustering.
 tags:
-  - Machine Learning
+  - Data cleaning and transformation
   - Time series
-  - Clustering
   - PCA
+  - Machine Learning
+  - Clustering
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

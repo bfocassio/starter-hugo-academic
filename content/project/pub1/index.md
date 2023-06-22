@@ -2,8 +2,11 @@
 title: Linear Jacobi-Legendre expansion of the charge density for machine learning-accelerated electronic structure calculations
 summary: Fingerprint coding. Data transformation. Regression Analysis. Deployment of regression model to application.
 tags:
+  - Data transformation
+  - Fingerprint coding
   - Machine Learning
   - Regression Analysis
+  - Deployment of final model to application
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

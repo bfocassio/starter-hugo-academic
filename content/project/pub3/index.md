@@ -2,10 +2,10 @@
 title: "Machine learning for materials discovery: Two-dimensional topological insulators"
 summary: Data mining. Feature transformation & Feature Engineering. Classification model. Model deployment to discover new materials.
 tags:
+  - Feature transformation
+  - Feature engineering
   - Machine Learning
   - Classification
-  - Feature transformation
-  - Feature Engineering
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

@@ -2,11 +2,11 @@
 title: "Machine learning of microscopic ingredients for graphene oxide/cellulose interaction"
 summary: Feature transformation & feature engineering. Insights from regression and classification models. Data visualization.
 tags:
+  - Feature transformation
+  - Feature engineering
   - Machine Learning
   - Regression Analysis
   - Classification
-  - Feature transformation
-  - Feature engineering
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
