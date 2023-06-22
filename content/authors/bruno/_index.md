@@ -60,18 +60,21 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/bruno-focassio/
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
   - icon: github
     icon_pack: fab
     link: https://github.com/bfocassio
+  - icon: chart-line # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://public.tableau.com/app/profile/bruno.focassio
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=t3207FIAAAAJ&hl=en
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'bfocassio@gmail.com'
@@ -80,5 +83,5 @@ email: 'bfocassio@gmail.com'
 highlight_name: true
 ---
 
-I am a fourth-year PhD student in Nanoscience and Advanced Materials at the Federal Univerisity of ABC (Brazil), under the supervision of Prof. Adalberto Fazzio. During 2022, I was visiting the Computational Spintronics Group in the School of Physics in Trinity College Dublin (Ireland), under the supervision of prof. Stefano Sanvito. My main interest is using data analysis, machine learning, materials informatics, and data-driven techniques to explore the materials phase space to achieve efficient design and discovery of materials.
+I am a fourth-year PhD student in Nanoscience and Advanced Materials at the Federal Univerisity of ABC (Brazil), under the supervision of Prof. Adalberto Fazzio. During 2022, I was visiting the Computational Spintronics Group in the School of Physics in Trinity College Dublin (Ireland), under the supervision of prof. Stefano Sanvito. My main interest is using data analysis, machine learning, materials informatics, and data-driven techniques to explore the materials phase space to achieve efficient design and discovery of materials. My PhD thesis includes using data science and machine learning applied to materials science to discover and design new materials.
 {style="text-align: justify;"}

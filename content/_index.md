@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: bruno
   - block: portfolio
@@ -18,45 +18,95 @@ sections:
       filters:
         folders:
           - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Regression
-          tag: Regression Analysis
-        - name: Classification
-          tag: Classification
-        - name: Clustering
-          tag: Clustering
+      # # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      # default_button_index: 0
+      # # Filter toolbar (optional).
+      # # Add or remove as many filters (`filter_button` instances) as you like.
+      # # To show all items, set `tag` to "*".
+      # # To filter by a specific tag, set `tag` to an existing tag name.
+      # # To remove the toolbar, delete the entire `filter_button` block.
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   - name: Regression
+      #     tag: Regression Analysis
+      #   - name: Classification
+      #     tag: Classification
+      #   - name: Clustering
+      #     tag: Clustering
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  # - block: features
-  #   content:
-  #     title: Skills
-  #     items:
-  #       - name: Python
-  #         description: 
-  #         icon: python
-  #         icon_pack: fab
-  #       - name: Statistical Analysis
-  #         description: 
-  #         icon: chart-line
-  #         icon_pack: fas
-  #       - name: Tableau
-  #         description:
-  #         icon: tableau
-  #         icon_pack: fas
+  - block: features
+    id: skills
+    content:
+      title: Skills
+      items:
+        - name: Python
+          description: 
+          icon: 
+          icon_pack: fab
+        - name: SQL
+          description: 
+          icon: 
+          icon_pack: fab
+        - name: Tableau
+          description: 
+          icon: 
+          icon_pack: fab
+        - name: pandas
+          description: 
+          icon: 
+          icon_pack: fab
+        - name: scikit-learn
+          description: 
+          icon: 
+          icon_pack: fab
+        - name: Data Analysis
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: Exploratory Data Analysis (EDA)
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: Data Visualization
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: Machine Learning
+          description: Regression, Classification, Clustering
+          icon: 
+          icon_pack: fas
+        - name: Predictive Modelling
+          description:
+          icon: 
+          icon_pack: fas
+        - name: Statistical Analysis
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: A/B Testing
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: Deep Learning
+          description: TensorFlow, PyTorch
+          icon: 
+          icon_pack: fas
+        - name: Problem-Solving
+          description: 
+          icon: 
+          icon_pack: fas
+        - name: Effective Written Communication
+          description: 
+          icon: 
+          icon_pack: fas
   - block: experience
+    id: exp
     content:
       title: Experience
       # Date format for experience
@@ -92,6 +142,7 @@ sections:
     design:
       columns: '2'
   - block: accomplishments
+    id: certificates
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       # title: 'Accomplish&shy;ments'
@@ -172,6 +223,7 @@ sections:
     design:
       columns: '2'
   - block: collection
+    id: publications
     content:
       title: Recent Publications
       text: |-
@@ -184,7 +236,7 @@ sections:
         exclude_featured: true
     design:
       columns: '2'
-      view: citation
+      view: list
   - block: contact
     id: contact
     content:
