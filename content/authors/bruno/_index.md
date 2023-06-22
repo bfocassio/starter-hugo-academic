@@ -63,6 +63,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+  - icon: cv-square
+    icon_pack: ai
+    link: uploads/resume_pt_BrunoFocassio.pdf
   - icon: github
     icon_pack: fab
     link: https://github.com/bfocassio

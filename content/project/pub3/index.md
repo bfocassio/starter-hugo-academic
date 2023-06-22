@@ -12,7 +12,7 @@ date: '2016-04-27T00:00:00Z'
 external_link: 'https://doi.org/10.1063/5.0055035'
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: ''
   focal_point: Smart
 
 links:
